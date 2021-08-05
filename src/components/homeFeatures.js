@@ -34,13 +34,22 @@ let HomeFeatures = () => {
       }
     }
     query featuresQuery {
-      slide1: file(relativePath: { eq: "slide1.jpg" }) {
+      slide1: file(relativePath: { eq: "finish-shower.jpeg" }) {
         ...defaultImage
       }
-      slide2: file(relativePath: { eq: "slide2.jpg" }) {
+      slide2: file(relativePath: { eq: "new-construction1.jpg" }) {
         ...defaultImage
       }
-      slide3: file(relativePath: { eq: "slide3.jpg" }) {
+      slide3: file(relativePath: { eq: "radiant-heat1.jpeg" }) {
+        ...defaultImage
+      }
+      slide4: file(relativePath: { eq: "gas1.jpeg" }) {
+        ...defaultImage
+      }
+      slide5: file(relativePath: { eq: "tankless1.jpg" }) {
+        ...defaultImage
+      }
+      slide6: file(relativePath: { eq: "Boiler1.jpeg" }) {
         ...defaultImage
       }
     }
@@ -49,19 +58,36 @@ let HomeFeatures = () => {
     <Container className="py-5">
       <Row>
         <Feature
-          title="Lorem Ipsum"
+          title="Finish Work"
           description="Eu lobortis elementum nibh tellus molestie nunc non blandit massa. Sit amet consectetur adipiscing elit duis."
           img={data.slide1.childImageSharp.fluid}
         />
         <Feature
-          title="Social Media"
+          title="New Construction"
           description="Eu lobortis elementum nibh tellus molestie nunc non blandit massa. Sit amet consectetur adipiscing elit duis."
           img={data.slide2.childImageSharp.fluid}
         />
         <Feature
-          title="Digital Technology"
+          title="Radiant Heat"
           description="Eu lobortis elementum nibh tellus molestie nunc non blandit massa. Sit amet consectetur adipiscing elit duis."
           img={data.slide3.childImageSharp.fluid}
+        />
+      </Row>
+      <Row>
+        <Feature
+          title="Gas"
+          description="Eu lobortis elementum nibh tellus molestie nunc non blandit massa. Sit amet consectetur adipiscing elit duis."
+          img={data.slide4.childImageSharp.fluid}
+        />
+        <Feature
+          title="Tankless Heaters"
+          description="Eu lobortis elementum nibh tellus molestie nunc non blandit massa. Sit amet consectetur adipiscing elit duis."
+          img={data.slide5.childImageSharp.fluid}
+        />
+        <Feature
+          title="Boilers"
+          description="Eu lobortis elementum nibh tellus molestie nunc non blandit massa. Sit amet consectetur adipiscing elit duis."
+          img={data.slide6.childImageSharp.fluid}
         />
       </Row>
     </Container>
