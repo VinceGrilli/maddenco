@@ -21,15 +21,11 @@ const Header = (props) => {
     <StyledNavbar color="light" light expand="md">
       <Container>
         <Link to="/" className="navbar-brand">
-          <Logo/>
+          <Logo />
         </Link>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Navigation
-            json={navigation}
-            link={Link}
-            activeClassName="active"
-          />
+          <Navigation json={navigation} link={Link} activeClassName="active" />
         </Collapse>
       </Container>
     </StyledNavbar>
