@@ -3,9 +3,9 @@ let gtm = "1234"
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Landing Page Starter`,
-    description: `A slightly opinionated Gatsby Landing Page starter template. `,
-    author: `Jeremy Lynch`,
+    title: `Madden Company`,
+    description: `Fully Licenced & Insured Plumbing Company`,
+    author: `Built to Code`,
     siteUrl: `https://gatsby-strapi-starter.netlify.com/`,
     phone: "1800123456",
     fax: "180012345",
@@ -47,6 +47,6 @@ module.exports = {
     "gatsby-plugin-robots-txt",
     `gatsby-plugin-netlify`,
     `gatsby-plugin-styled-components`,
-    `gatsby-plugin-preact`
+    `gatsby-plugin-preact`,
   ],
 }
