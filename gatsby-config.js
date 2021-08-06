@@ -3,9 +3,9 @@ let gtm = "1234"
 module.exports = {
   siteMetadata: {
     title: `Madden Company`,
-    description: `Fully Licenced & Insured Plumbing Company`,
+    description: `Fully Licenced & Insured Full Service Plumbing Company`,
     author: `Built to Code`,
-    siteUrl: `https://gatsby-strapi-starter.netlify.com/`,
+    siteUrl: `https://maddencompany.biz/`,
     phone: "1800123456",
     address: "123 fake street",
     email: "contact@test.com",
