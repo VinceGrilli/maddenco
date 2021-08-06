@@ -11,6 +11,8 @@ const GalleryPage = () => (
       <Gallery section={GallerySection.FinishWork} />
       <h3>Radiant Heat</h3>
       <Gallery section={GallerySection.RadiantHeat} />
+      <h3>Boilers</h3>
+      <Gallery section={GallerySection.Boilers} />
     </section>
   </PageTemplate>
 )
