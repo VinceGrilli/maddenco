@@ -1,4 +1,3 @@
-let facebook_pixel = ""
 let gtm = "1234"
 
 module.exports = {
@@ -8,7 +7,6 @@ module.exports = {
     author: `Built to Code`,
     siteUrl: `https://gatsby-strapi-starter.netlify.com/`,
     phone: "1800123456",
-    fax: "180012345",
     address: "123 fake street",
     email: "contact@test.com",
   },
@@ -27,12 +25,6 @@ module.exports = {
       options: {
         id: gtm,
         includeInDevelopment: false,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-facebook-pixel`,
-      options: {
-        pixelId: facebook_pixel,
       },
     },
     {
