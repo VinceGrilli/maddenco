@@ -1,20 +1,18 @@
 import React from "react"
 import PageTemplate from "../components/pageTemplate"
+import { Gallery, GallerySection } from "../components/gallery"
 
-let Gallery = () => (
+const GalleryPage = () => (
   <PageTemplate title="Gallery">
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo erat
-      eu viverra mollis. Quisque tellus ante, commodo nec tellus sit amet,
-      ornare blandit justo. Integer in cursus justo, vel aliquam ex. Etiam
-      ligula sapien, sagittis eu posuere et, tincidunt a arcu. Nullam egestas
-      lacus a molestie efficitur. Fusce neque mauris, commodo at lectus ut,
-      aliquet pretium neque. Cras laoreet sapien lorem, eu auctor lorem porta
-      quis. Proin placerat, nunc quis placerat mattis, ligula velit mollis nisi,
-      ac maximus velit urna vel nibh. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-    </p>
+    <section className="container">
+      <h3>New Construction</h3>
+      <Gallery section={GallerySection.NewConstruction} />
+      <h3>Finish Work</h3>
+      <Gallery section={GallerySection.FinishWork} />
+      <h3>Radiant Heat</h3>
+      <Gallery section={GallerySection.RadiantHeat} />
+    </section>
   </PageTemplate>
 )
 
-export default Gallery
+export default GalleryPage

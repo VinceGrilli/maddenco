@@ -7,7 +7,7 @@ export const Gallery = (props: Props) => {
   const imageData = useStaticQuery(graphql`
     query {
       newConstruction: allFile(
-        filter: { relativeDirectory: { in: "gallery/new-construction" } }
+        filter: { relativeDirectory: { in: "new-construction" } }
       ) {
         nodes {
           childImageSharp {
@@ -19,7 +19,7 @@ export const Gallery = (props: Props) => {
       }
 
       finishWork: allFile(
-        filter: { relativeDirectory: { in: "gallery/finish-work" } }
+        filter: { relativeDirectory: { in: "finish-work" } }
       ) {
         nodes {
           childImageSharp {
@@ -31,7 +31,7 @@ export const Gallery = (props: Props) => {
       }
 
       radiantHeat: allFile(
-        filter: { relativeDirectory: { in: "gallery/radiant-heat" } }
+        filter: { relativeDirectory: { in: "radiant-heat" } }
       ) {
         nodes {
           childImageSharp {
