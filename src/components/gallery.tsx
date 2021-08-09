@@ -11,7 +11,7 @@ export const Gallery = (props: Props) => {
       ) {
         nodes {
           childImageSharp {
-            fluid(quality: 90, maxWidth: 300, maxHeight: 250) {
+            fluid(quality: 90, maxWidth: 960) {
               ...GatsbyImageSharpFluid_withWebp
             }
           }
@@ -32,6 +32,18 @@ export const Gallery = (props: Props) => {
 
       radiantHeat: allFile(
         filter: { relativeDirectory: { in: "radiant-heat" } }
+      ) {
+        nodes {
+          childImageSharp {
+            fluid(quality: 90, maxWidth: 960) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+        }
+      }
+
+      tankless: allFile(
+        filter: { relativeDirectory: { in: "tankless" } }
       ) {
         nodes {
           childImageSharp {
@@ -93,5 +105,6 @@ export enum GallerySection {
   FinishWork = "finishWork",
   RadiantHeat = "radiantHeat",
   Boilers = "boilers",
-  Gas = "gas"
+  Gas = "gas",
+  Tankless = "tankless"
 }

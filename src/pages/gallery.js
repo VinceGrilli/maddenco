@@ -13,6 +13,8 @@ const GalleryPage = () => (
       <Gallery section={GallerySection.RadiantHeat} />
       <h3>Boilers</h3>
       <Gallery section={GallerySection.Boilers} />
+      <h3>Tankless Hot Water Heaters</h3>
+      <Gallery section={GallerySection.Tankless} />
       <h3>Gas</h3>
       <Gallery section={GallerySection.Gas} />
     </section>

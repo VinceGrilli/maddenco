@@ -6,7 +6,7 @@ import PageTitle from "../components/page-title"
 let PageTemplate = ({ title, children }) => (
   <Layout>
     <PageTitle title={title} />
-    <Container className="py-4">
+    <Container className="py-4" style={{ maxWidth: "1320px" }}>
       <Row className="d-flex justify-content-center">
         <Col sm={10}>{children}</Col>
       </Row>
