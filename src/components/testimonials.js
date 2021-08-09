@@ -18,7 +18,7 @@ let Testimonial = ({ stars = 5, content, client, location }) => (
   </Col>
 )
 
-export default () => (
+const Testimonials = () => (
   <Background>
     <Container className="py-5">
       <h2 className="text-center">Client Testimonials</h2>
@@ -50,3 +50,5 @@ export default () => (
     </Container>
   </Background>
 )
+
+export default Testimonials
