@@ -9,6 +9,7 @@ module.exports = {
     phone: "1800123456",
     address: "123 fake street",
     email: "contact@test.com",
+    fax: "180012345",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

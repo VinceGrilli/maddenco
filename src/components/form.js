@@ -8,7 +8,7 @@ let Form = () => (
     <NormalField name="Full Name" />
     <NormalField name="Email" />
     <NormalField name="Phone Number" />
-    <NormalField name="Comments" type="textarea" />
+    <NormalField name="Message" type="textarea" />
     <Button type="submit">Submit</Button>
   </form>
 )
