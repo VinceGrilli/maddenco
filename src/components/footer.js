@@ -32,30 +32,21 @@ let SocialLink = ({ Icon }) => (
   </Link>
 )
 
-let FooterLink = ({ to, children }) => (
-  <li>
-    <Link to={to}>{children}</Link>
-  </li>
-)
-
 let Footer = () => (
   <FooterStyling>
     <Container>
       <Row>
         {footerItems.map((item) => (
           <Col key={item.name} xs={12} md={3}>
-            <h5>{item.name}</h5>
-            <ul>
-              {item.dropdownItems.map((dropdownItem) => (
-                <FooterLink key={dropdownItem.id} to={dropdownItem.url}>
-                  {dropdownItem.name}
-                </FooterLink>
-              ))}
-            </ul>
+            <h5>
+              <Link to={item.url}>{item.name}</Link>
+            </h5>
           </Col>
         ))}
         <Col xs={12} md={3}>
-          <h5>Contact Us</h5>
+          <h5>
+            <Link to="/contact">Contact Us</Link>
+          </h5>
           <SocialLink Icon={FaFacebookSquare} />
           <SocialLink Icon={FaInstagram} />
         </Col>
