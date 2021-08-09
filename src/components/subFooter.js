@@ -9,7 +9,7 @@ let SubFooter = ({ title }) => (
       <div className="site-info d-flex justify-content-center">
         © {new Date().getFullYear()}
         {` `}
-        {title}. Website crafted by
+        Website crafted by
         {` `}
         <a href="https://builttocode.dev">
           <img

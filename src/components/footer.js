@@ -34,7 +34,7 @@ let SocialLink = ({ Icon }) => (
 
 let Footer = () => (
   <FooterStyling>
-    <Container>
+    <Container className="d-flex justify-content-around">
       <Row>
         {footerItems.map((item) => (
           <Col key={item.name} xs={12} md={3}>
@@ -43,13 +43,10 @@ let Footer = () => (
             </h5>
           </Col>
         ))}
-        <Col xs={12} md={3}>
-          <h5>
-            <Link to="/contact">Contact Us</Link>
-          </h5>
+        {/* <Col xs={12} md={3} className="justify-content-center">
           <SocialLink Icon={FaFacebookSquare} />
           <SocialLink Icon={FaInstagram} />
-        </Col>
+        </Col> */}
       </Row>
     </Container>
   </FooterStyling>
