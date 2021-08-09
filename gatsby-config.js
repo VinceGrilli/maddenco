@@ -8,7 +8,7 @@ module.exports = {
     siteUrl: `https://maddencompany.biz/`,
     phone: "1800123456",
     address: "123 fake street",
-    email: "contact@test.com",
+    email: "info@maddencompany.biz",
     fax: "180012345",
   },
   plugins: [
@@ -38,7 +38,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        icon: "./src/assets/images/gatsby-icon.png",
+        icon: "./src/assets/images/mco-circle.png",
       },
     },
     `gatsby-transformer-sharp`,
