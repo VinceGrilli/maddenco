@@ -34,18 +34,18 @@ let Index = () => (
   <Layout>
     <SEO title="Home" />
     <Slider />
-    <Container className="py-5">
-      <h2 className="text-center mb-4">Services</h2>
-      <HomeFeatures />
-    </Container>
+    <Benefits />
     <StyledBackground>
-      <Benefits />
+      <Container className="py-5">
+        <h2 className="text-center mb-4">Services</h2>
+        <HomeFeatures />
+      </Container>
       <div className="py-5">
         <Container>
           <Row className="d-flex justify-content-center">
             <Col md={8}>
               <Box style={{ textAlign: "left" }}>
-                <h3 className="text-center">Reactstrap Form Fields</h3>
+                <h3 className="text-center">Contact Us Today!</h3>
                 <Hr />
                 <Form />
               </Box>

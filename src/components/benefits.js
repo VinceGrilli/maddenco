@@ -1,6 +1,6 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
-import { FaCode } from "react-icons/fa"
+import { FaWrench } from "react-icons/fa"
 import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image/withIEPolyfill"
 import styled from "styled-components"
@@ -24,7 +24,7 @@ let StyledImg = styled((props) => <Img {...props} />)`
 
 let Benefit = ({ title, content }) => (
   <div className="d-flex mb-4">
-    <FaCode size={30} className="text-primary" />
+    <FaWrench size={30} className="text-primary" />
     <div className="ml-3">
       <h4>{title}</h4>
       <p className="m-0 text-muted">{content}</p>
@@ -37,20 +37,20 @@ let Benefits = ({ data }) => (
     <Row className="d-flex align-items-center">
       <Col md="6">
         <div className="mb-4">
-          <h2 className="text-primary">Next Generation Websites</h2>
-          <p className="text-muted">Blazing fast. Just try it.</p>
+          <h2 className="text-primary">Full Service Cape Cod Plumbers</h2>
+          <p className="text-muted">Rough to finish we do it all!</p>
         </div>
         <Benefit
-          title="Styled Components"
-          content="We're using the css-in-js methodology to make this website extremely fast!"
+          title="Fully Licensed & Insured"
+          content="We are a fully licensed and insured plumbing company servicing Cape Cod. We always get the job done right the first time."
         />
         <Benefit
-          title="Gatsby"
-          content="Gatsby offers a huge range of performance enhancements!"
+          title="Quick Responce Time"
+          content="We are Cape Cod's plumbing specialists. Quality and customer satisfaction are our top priorities."
         />
         <Benefit
-          title="Bootstrap/Reactstrap"
-          content="Responsive site built on Bootstrap"
+          title="Modern Pluming & Heating Solutions"
+          content="Our licensed plumbers are trained in the latest technology and we install top quality products."
         />
       </Col>
       <Col md="6">

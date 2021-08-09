@@ -3,7 +3,7 @@ let gtm = "1234"
 module.exports = {
   siteMetadata: {
     title: `Madden Company`,
-    description: `Fully Licenced & Insured Full Service Plumbing Company`,
+    description: `Fully Licenced & Insured Full Service Cape Cod Plumbing`,
     author: `Built to Code`,
     siteUrl: `https://maddencompany.biz/`,
     phone: "1800123456",
