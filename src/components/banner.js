@@ -2,7 +2,6 @@ import React from "react"
 import { Container } from "reactstrap"
 import { HeaderItem } from "./bannerHelper"
 import { FaMapMarkerAlt, FaPhone } from "react-icons/fa"
-import NumberFormat from "react-number-format"
 
 let Banner = ({ title, phone, address }) => {
   const phone_url = "tel:" + phone.replace(/ /g, "")
@@ -18,13 +17,7 @@ let Banner = ({ title, phone, address }) => {
               Icon={FaPhone}
               url={phone_url}
               klass="d-sm-none"
-            >
-              <NumberFormat
-                value={phone}
-                displayType={"text"}
-                format="### ### ####"
-              />
-            </HeaderItem>
+            />
           </div>
           <div className="d-flex">
             <HeaderItem
@@ -40,13 +33,7 @@ let Banner = ({ title, phone, address }) => {
               Icon={FaPhone}
               url={phone_url}
               klass="d-sm-flex d-none mr-3"
-            >
-              <NumberFormat
-                value={phone}
-                displayType={"text"}
-                format="### ### ####"
-              />
-            </HeaderItem>
+            />
           </div>
         </div>
       </Container>

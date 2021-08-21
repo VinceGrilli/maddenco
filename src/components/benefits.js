@@ -11,13 +11,13 @@ let StyledImg = styled((props) => <Img {...props} />)`
   overflow: visible !important;
   picture,
   img {
-    transform: rotateY(-1deg) rotateX(1deg);
+    transform: rotateY(-2deg) rotateX(2deg);
     box-shadow: 25px 60px 125px -25px rgba(80, 102, 144, 0.1),
       16px 40px 75px -40px rgba(0, 0, 0, 0.2);
     border-radius: 0.625rem;
     transition: 1s !important;
     &:hover {
-      transform: rotateY(-15deg) rotateX(15deg);
+      transform: rotateY(-5deg) rotateX(5deg);
     }
   }
 `

@@ -3,7 +3,7 @@ import { Container, Collapse, Navbar, NavbarToggler } from "reactstrap"
 import Link from "./link"
 import Navigation from "reactstrap-json-nav"
 import navigation from "../data/navigation"
-import logo from "../assets/images/madden-company-logo1.png"
+import logo from "../assets/images/mco-circle.png"
 import styled from "styled-components"
 
 let StyledNavbar = styled((props) => <Navbar {...props} />)`
