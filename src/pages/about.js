@@ -3,38 +3,16 @@ import PageTemplate from "../components/pageTemplate"
 
 let About = () => (
   <PageTemplate title="About Us">
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo erat
-      eu viverra mollis. Quisque tellus ante, commodo nec tellus sit amet,
-      ornare blandit justo. Integer in cursus justo, vel aliquam ex. Etiam
-      ligula sapien, sagittis eu posuere et, tincidunt a arcu. Nullam egestas
-      lacus a molestie efficitur. Fusce neque mauris, commodo at lectus ut,
-      aliquet pretium neque. Cras laoreet sapien lorem, eu auctor lorem porta
-      quis. Proin placerat, nunc quis placerat mattis, ligula velit mollis nisi,
-      ac maximus velit urna vel nibh. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo erat
-      eu viverra mollis. Quisque tellus ante, commodo nec tellus sit amet,
-      ornare blandit justo. Integer in cursus justo, vel aliquam ex. Etiam
-      ligula sapien, sagittis eu posuere et, tincidunt a arcu. Nullam egestas
-      lacus a molestie efficitur. Fusce neque mauris, commodo at lectus ut,
-      aliquet pretium neque. Cras laoreet sapien lorem, eu auctor lorem porta
-      quis. Proin placerat, nunc quis placerat mattis, ligula velit mollis nisi,
-      ac maximus velit urna vel nibh. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo erat
-      eu viverra mollis. Quisque tellus ante, commodo nec tellus sit amet,
-      ornare blandit justo. Integer in cursus justo, vel aliquam ex. Etiam
-      ligula sapien, sagittis eu posuere et, tincidunt a arcu. Nullam egestas
-      lacus a molestie efficitur. Fusce neque mauris, commodo at lectus ut,
-      aliquet pretium neque. Cras laoreet sapien lorem, eu auctor lorem porta
-      quis. Proin placerat, nunc quis placerat mattis, ligula velit mollis nisi,
-      ac maximus velit urna vel nibh. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
+    <p className="lead my-5">
+      Madden Company is a small and local business that focuses on a variety of
+      plumbing projects for building contractors and homeowners alike. Before
+      starting Madden Company I earned a bachelor's degree in small business
+      management and entrepreneurship then went to complete the 5 year state of
+      Massachusetts plumbing license program. Based out of Harwich,
+      Massachusetts we serve anywhere from mid-cape to Provincetown. With over
+      ten years of experience in the construction industry, clear and precise
+      communication between contractors and homeowners takes priority in order
+      to ensure a quality product for the customers ultimate satisfaction.
     </p>
   </PageTemplate>
 )

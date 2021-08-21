@@ -11,13 +11,13 @@ let StyledImg = styled((props) => <Img {...props} />)`
   overflow: visible !important;
   picture,
   img {
-    transform: rotateY(-35deg) rotateX(15deg);
+    transform: rotateY(-1deg) rotateX(1deg);
     box-shadow: 25px 60px 125px -25px rgba(80, 102, 144, 0.1),
       16px 40px 75px -40px rgba(0, 0, 0, 0.2);
     border-radius: 0.625rem;
     transition: 1s !important;
     &:hover {
-      transform: rotateY(-30deg) rotateX(15deg);
+      transform: rotateY(-15deg) rotateX(15deg);
     }
   }
 `
@@ -68,7 +68,7 @@ const BenefitsQuery = () => (
   <StaticQuery
     query={graphql`
       query BenefitsQuery {
-        file(relativePath: { eq: "sample.png" }) {
+        file(relativePath: { eq: "van.png" }) {
           id
           childImageSharp {
             fluid {

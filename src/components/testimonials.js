@@ -25,8 +25,8 @@ const Testimonials = () => (
       <Row className="d-flex justify-content-center">
         <Col md="7">
           <p className="text-center text-secondary">
-            We've been the leading plumbing & radiant heat provider on Cape Cod
-            for more than a decade. Here’s what our clients say.
+            We've been providing top quality plumbing & heating services on Cape
+            Cod for over a decade. Here’s what our clients say.
           </p>
         </Col>
       </Row>

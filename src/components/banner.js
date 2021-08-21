@@ -1,20 +1,10 @@
 import React from "react"
 import { Container } from "reactstrap"
-import { HeaderItem, IconLink } from "./bannerHelper"
-import {
-  FaInstagram,
-  FaFacebookF,
-  FaMapMarkerAlt,
-  FaPhone,
-} from "react-icons/fa"
+import { HeaderItem } from "./bannerHelper"
+import { FaMapMarkerAlt, FaPhone } from "react-icons/fa"
+import NumberFormat from "react-number-format"
 
-let Banner = ({
-  title,
-  phone,
-  facebook_url = null,
-  instagram_url = null,
-  address,
-}) => {
+let Banner = ({ title, phone, address }) => {
   const phone_url = "tel:" + phone.replace(/ /g, "")
   return (
     <div className="bg-light">
@@ -28,7 +18,13 @@ let Banner = ({
               Icon={FaPhone}
               url={phone_url}
               klass="d-sm-none"
-            />
+            >
+              <NumberFormat
+                value={phone}
+                displayType={"text"}
+                format="### ### ####"
+              />
+            </HeaderItem>
           </div>
           <div className="d-flex">
             <HeaderItem
@@ -44,17 +40,13 @@ let Banner = ({
               Icon={FaPhone}
               url={phone_url}
               klass="d-sm-flex d-none mr-3"
-            />
-            {facebook_url ? (
-              <IconLink href={facebook_url} Icon={FaFacebookF} />
-            ) : (
-              ""
-            )}
-            {instagram_url ? (
-              <IconLink href={instagram_url} Icon={FaInstagram} />
-            ) : (
-              ""
-            )}
+            >
+              <NumberFormat
+                value={phone}
+                displayType={"text"}
+                format="### ### ####"
+              />
+            </HeaderItem>
           </div>
         </div>
       </Container>

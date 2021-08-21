@@ -6,10 +6,9 @@ module.exports = {
     description: `Fully Licenced & Insured Full Service Cape Cod Plumbing`,
     author: `Built to Code`,
     siteUrl: `https://maddencompany.biz/`,
-    phone: "1800123456",
-    address: "123 fake street",
+    phone: "7747223545",
+    address: "Harwich, MA",
     email: "info@maddencompany.biz",
-    fax: "180012345",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

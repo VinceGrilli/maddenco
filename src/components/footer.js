@@ -1,6 +1,5 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
-import { FaFacebookSquare, FaInstagram } from "react-icons/fa"
 import Link from "./link"
 import styled from "styled-components"
 import footerItems from "../data/footer.json"
@@ -26,12 +25,6 @@ const FooterStyling = styled.footer`
   }
 `
 
-let SocialLink = ({ Icon }) => (
-  <Link to="/" className="mr-2">
-    <Icon size={30} />
-  </Link>
-)
-
 let Footer = () => (
   <FooterStyling>
     <Container className="d-flex justify-content-around">
@@ -43,10 +36,6 @@ let Footer = () => (
             </h5>
           </Col>
         ))}
-        {/* <Col xs={12} md={3} className="justify-content-center">
-          <SocialLink Icon={FaFacebookSquare} />
-          <SocialLink Icon={FaInstagram} />
-        </Col> */}
       </Row>
     </Container>
   </FooterStyling>
