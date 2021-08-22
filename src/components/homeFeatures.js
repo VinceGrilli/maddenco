@@ -59,34 +59,34 @@ let HomeFeatures = () => {
       <Row>
         <Feature
           title="Finish Work"
-          description="Eu lobortis elementum nibh tellus molestie nunc non blandit massa. Sit amet consectetur adipiscing elit duis."
+          description="Kitchen & bath remodels. Faucet, sink, & toilet replacements. Fridge & ice machine hookups. Outdoor showers and more! "
           img={data.slide1.childImageSharp.fluid}
         />
         <Feature
           title="New Construction"
-          description="Eu lobortis elementum nibh tellus molestie nunc non blandit massa. Sit amet consectetur adipiscing elit duis."
+          description="Hot water tanks & boilers, washer & dryer hookups, frost-proof sillcocks and much more... Rough to finish we do it all!"
           img={data.slide2.childImageSharp.fluid}
         />
         <Feature
           title="Radiant Heat"
-          description="Eu lobortis elementum nibh tellus molestie nunc non blandit massa. Sit amet consectetur adipiscing elit duis."
+          description="We specailize in the installation and maintenance of hydronic radiant floor systems."
           img={data.slide3.childImageSharp.fluid}
         />
       </Row>
       <Row>
         <Feature
           title="Gas"
-          description="Eu lobortis elementum nibh tellus molestie nunc non blandit massa. Sit amet consectetur adipiscing elit duis."
+          description="We do new meter connections, propane/oil conversions, fireplaces & pits, pool heaters, generators & all in-home gas appliances"
           img={data.slide4.childImageSharp.fluid}
         />
         <Feature
-          title="Tankless Heaters"
-          description="Eu lobortis elementum nibh tellus molestie nunc non blandit massa. Sit amet consectetur adipiscing elit duis."
+          title="Tankless Water Heaters"
+          description="Save space and energy with a modern on-demand tankless hot water heater. Never worry about hot water shortages again"
           img={data.slide5.childImageSharp.fluid}
         />
         <Feature
           title="Boilers"
-          description="Eu lobortis elementum nibh tellus molestie nunc non blandit massa. Sit amet consectetur adipiscing elit duis."
+          description="We specailize in the installation or replacement of all type of boilers to keep your home heated efficiently"
           img={data.slide6.childImageSharp.fluid}
         />
       </Row>
