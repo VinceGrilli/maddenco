@@ -37,20 +37,24 @@ let Benefits = ({ data }) => (
     <Row className="d-flex align-items-center">
       <Col md="6">
         <div className="mb-4">
-          <h2 className="text-primary">Full Service Cape Cod Plumbers</h2>
-          <p className="text-muted">Rough to finish we do it all!</p>
+          <h2 className="text-primary text-center">
+            Full Service Cape Cod Plumbers
+          </h2>
+          <p className="text-muted text-center">
+            Plumbing | Heating | Gas Fitting
+          </p>
         </div>
         <Benefit
           title="Fully Licensed & Insured"
-          content="We are a fully licensed and insured plumbing company servicing Cape Cod. We always get the job done right the first time."
+          content="We are a fully licensed and insured plumbing company servicing the mid to outer Cape."
         />
         <Benefit
-          title="Quick Responce Time"
-          content="We are Cape Cod's plumbing specialists. Quality and customer satisfaction are our top priorities."
+          title="Serving Contracters & Homeowners"
+          content="We always prioritize clear communication to ensure 100% customer satisfaction"
         />
         <Benefit
-          title="Modern Pluming & Heating Solutions"
-          content="Our licensed plumbers are trained in the latest technology and we install top quality products."
+          title="Modern Plumbing & Heating Solutions"
+          content="Our licensed plumbers are trained in the latest technology and installation of top quality products."
         />
       </Col>
       <Col md="6">

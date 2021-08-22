@@ -50,14 +50,7 @@ let Contact = ({ data }) => {
     <Layout>
       <PageTitle title="Contact Us" />
       <Container>
-        <Row className="py-5">
-          <ContactItem text={address} type="Address" Icon={FaMapMarkerAlt} />
-          <ContactItem
-            text={email}
-            href={`mailto:${email}`}
-            type="Email"
-            Icon={FaEnvelope}
-          />
+        <Row className="d-flex justify-content-between py-5">
           <ContactItem
             text={phone}
             href={`tel:${phone}`}
@@ -70,6 +63,13 @@ let Contact = ({ data }) => {
               format="### ### ####"
             />
           </ContactItem>
+          <ContactItem
+            text={email}
+            href={`mailto:${email}`}
+            type="Email"
+            Icon={FaEnvelope}
+          />
+          <ContactItem text={address} type="Address" Icon={FaMapMarkerAlt} />
         </Row>
         <hr />
         <Row className="py-5">
