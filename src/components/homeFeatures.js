@@ -86,7 +86,7 @@ let HomeFeatures = () => {
         />
         <Feature
           title="Boilers"
-          description="We are experienced in the installation or replacement of all types of boilers to keep your home heated efficiently"
+          description="We are experienced in the installation and replacement of all types of boilers to keep your home heated efficiently"
           img={data.slide6.childImageSharp.fluid}
         />
       </Row>
