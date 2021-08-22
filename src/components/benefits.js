@@ -1,6 +1,6 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
-import { FaWrench } from "react-icons/fa"
+import { IoConstructSharp } from "react-icons/io5"
 import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image/withIEPolyfill"
 import styled from "styled-components"
@@ -24,9 +24,9 @@ let StyledImg = styled((props) => <Img {...props} />)`
 
 let Benefit = ({ title, content }) => (
   <div className="d-flex mb-4">
-    <FaWrench size={30} className="text-primary" />
+    <IoConstructSharp size={30} className="text-primary" />
     <div className="ml-3">
-      <h4>{title}</h4>
+      <h4 className="text-black">{title}</h4>
       <p className="m-0 text-muted">{content}</p>
     </div>
   </div>

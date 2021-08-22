@@ -17,7 +17,7 @@ let Feature = ({ title, description, img }) => (
     <StyledFeature>
       <Img fluid={img} />
       <div className="p-3">
-        <h5>{title}</h5>
+        <h5 className="text-center">{title}</h5>
         <p>{description}</p>
       </div>
     </StyledFeature>
@@ -86,7 +86,7 @@ let HomeFeatures = () => {
         />
         <Feature
           title="Boilers"
-          description="We specailize in the installation or replacement of all type of boilers to keep your home heated efficiently"
+          description="We are in the installation or replacement of all type of boilers to keep your home heated efficiently"
           img={data.slide6.childImageSharp.fluid}
         />
       </Row>
