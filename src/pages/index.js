@@ -40,8 +40,7 @@ let Index = () => (
         </Container>
       </div>
     </StyledBackground>
-
-    <Testimonials />
+    {/* <Testimonials /> */}
   </Layout>
 )
 
