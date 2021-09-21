@@ -75,7 +75,7 @@ let HomeFeatures = () => {
       </Row>
       <Row>
         <Feature
-          title="Gas"
+          title="Natural Gas & Propane"
           description="We do new meter connections, propane/oil conversions, fireplaces & pits, pool heaters, generators & all in-home gas appliances"
           img={data.slide4.childImageSharp.fluid}
         />

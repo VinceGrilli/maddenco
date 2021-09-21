@@ -15,7 +15,7 @@ const GalleryPage = () => (
       <Gallery section={GallerySection.Boilers} />
       <h3>Tankless Hot Water Heaters</h3>
       <Gallery section={GallerySection.Tankless} />
-      <h3>Gas</h3>
+      <h3>Natural Gas & Propane Installation</h3>
       <Gallery section={GallerySection.Gas} />
     </section>
   </PageTemplate>
