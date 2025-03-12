@@ -27,6 +27,12 @@ let Index = () => (
         <HomeFeatures />
       </Container>
       <div className="py-5">
+        <Container className="d-flex justify-content-center">
+          <a href="https://maddencompany.discovered.ai/">
+            <h2>Ask about joining our team!</h2>
+          </a>
+        </Container>
+        <div className="py-5"></div>
         <Container>
           <Row className="d-flex justify-content-center">
             <Col md={8}>
